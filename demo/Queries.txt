@@ -1,0 +1,21 @@
+Queries:
+
+show databases;
+create database (datbase name which u want to create);
+use database (name of database);
+
+create table (table name)(col1 (type), col2(type), col3(type).....);
+eg- create table user(id int(11) primary key, name varchar(100) not null, city varchar(50))
+primary key- should be unique, not null- should not be null.
+
+show tables;
+desc (table name);
+drop table (table name);
+
+// for rename table
+alter table (old table name) rename to (new table name);
+
+insert into (table name)(col1name,col2name,col3name) values(values );
+eg- insert into user(id,name,city) values(1,'Pradnya','Pune');
+
+select * from user;
